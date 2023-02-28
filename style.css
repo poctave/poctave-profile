@@ -1,0 +1,146 @@
+body {
+  background-color: #6096B4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #93BFCF;
+  color: #EEE9DA;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #d6fff7;
+  background-color: #232529;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #EEE9DA;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #EEE9DA;
+}
+
+.social-links a {
+  font-size: 2rem;
+  color: #3E4551;
+  margin: 0 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #EEE9DA;
+}
+
+section {
+  padding: 2rem;
+  background-color: #93BFCF;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #EEE9DA;
+  margin-bottom: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: calc(33.33% - 1rem);
+  margin-bottom: 2rem;
+}
+
+li img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+li p {
+  font-size: 1rem;
+  color: #A6A6A6;
+  margin-top: 0.7rem;
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  width: calc(33.33% - 1rem);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+section li img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+section .image-description {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+  padding: 0.2rem;
+}
+
+section li:hover .image-description {
+  display: block;
+}
