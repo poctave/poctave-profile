@@ -144,3 +144,37 @@ section .image-description {
 section li:hover .image-description {
   display: block;
 }
+@media (max-width: 960px) {
+  li img {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  li img {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  li img {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 960px) {
+  nav a {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  nav a {
+    width: 90%;
+  }
+}
+
+@media (max-width: 540px) {
+  nav a {
+    width: 100%;
+  }
+}
